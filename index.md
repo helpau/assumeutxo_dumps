@@ -1,6 +1,9 @@
 [AssumeUTXO](https://github.com/bitcoin/bitcoin/blob/master/doc/assumeutxo.md) dumps for fast Bitcoin Core synchronization
+
 Created on Bitcoin Core 28
+
 [Mainnet(block 867266)](https://www.kaggle.com/datasets/helpau/bitcoin-utxo-dumpassumeutxo-mainnet-867266)-sha256 hash f42ca419d0da27c2ed54a2d7755521b1d5800510ea665b3415ba30dc8f8ca8a8
+
 How to create own utxodump:
 
 \>dumptxoutset "C:\Users\laptop\utxo_dump_mainnet_867266.dat"
