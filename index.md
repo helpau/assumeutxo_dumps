@@ -14,7 +14,7 @@ How to create own utxodump:
   "nchaintx": 1105088580
 }
 ```
-~How to load:~
+~~How to load:~~
 
 \>loadutxoset "C:\Users\laptop\utxo_dump_mainnet_867266.dat"
 ```
