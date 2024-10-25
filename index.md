@@ -14,7 +14,12 @@ How to create own utxodump:
   "nchaintx": 1105088580
 }
 ```
-How to load:
+~How to load:~
+
 \>loadutxoset "C:\Users\laptop\utxo_dump_mainnet_867266.dat"
+```
+Unable to load UTXO snapshot: assumeutxo block hash in snapshot metadata not recognized (hash: 0000000000000000000267a42e80308fe0531a716eebf67256471e47f5cc5435). The following snapshot heights are available: 840000. (C:\Users\pc\Desktop\utxo_dump_mainnet_867266.dat) (code -32603)
+```
+Error descripted on [SO](https://bitcoin.stackexchange.com/questions/121006/anyone-tried-assumeutxo-yet)
 
 Similar: [FastSync](https://github.com/btcpayserver/btcpayserver-docker/tree/master/contrib/FastSync)(BTCPay Server)
